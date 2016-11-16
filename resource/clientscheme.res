@@ -18,6 +18,38 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// my colors
+		
+		"Health"			"234 234 234 255"
+		"HealthBuff"		"0 230 118 255"
+		"HealthLow"			"255 82 82 255"
+		
+		"Ammo"				"234 234 234 255"
+		"AmmoLow"			"255 82 82 255"
+		
+		"AmmoSecondary"		"234 234 234 255"
+		"AmmoSecondaryLow"	"255 82 82 255"
+		
+		"RedTeam"			"244 67 54 255"
+		"BlueTeam"			"33 150 243 255"
+		
+		//base custom colors I dont recommend changing these
+		"cwhite"			"234 234 234 255"
+		"cgray"				"158 158 158 255"
+		"cblack"			"33 33 33 255"
+		"cred"				"244 67 54 255"
+		"credlight"			"255 82 82 255"
+		"cgreen"			"0 230 118 255"
+		"cblue"				"33 150 243 255"
+		"cbluedark"			"63 81 181 255"		
+		"cbluelight"		"3 169 244 255"
+		"corange"			"255 152 0 255"
+		"cyellow"			"255 235 59 255"
+		"camber"			"255 193 7 255"
+		"cpink"				"233 30 99 255"
+		"cpurple"			"156 39 176 255"
+	
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
