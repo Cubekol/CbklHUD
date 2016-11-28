@@ -19,20 +19,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"			
 	}
 	
 	"ItemEffectMeterLabel"
@@ -53,7 +43,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"treg12"
 	}
 
 	"ItemEffectMeter"
@@ -83,7 +73,6 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos_minmode"			"18"
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
@@ -93,10 +82,9 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontSmall"
+		"font"					"tbol24"
 	}
 }

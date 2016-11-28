@@ -18,36 +18,72 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		// my colors
+		// Custom HUD colors //
 		
-		"Health"			"234 234 234 255"
-		"HealthBuff"		"0 230 118 255"
-		"HealthLow"			"255 82 82 255"
 		
-		"Ammo"				"234 234 234 255"
-		"AmmoLow"			"255 82 82 255"
+		// HEALTH
+		"Health"					"234 234 234 255"
+		"HealthShadow"				"22 22 22 255"
+		"HealthBuff"				"0 230 118 255"
+		"HealthLow"					"255 82 82 255"
+		"HealthPickup"				"0 230 118 255"
 		
-		"AmmoSecondary"		"234 234 234 255"
-		"AmmoSecondaryLow"	"255 82 82 255"
 		
-		"RedTeam"			"244 67 54 255"
-		"BlueTeam"			"33 150 243 255"
+		// AMMO
+		"Ammo"						"234 234 234 255"
+		"AmmoShadow"				"22 22 22 255"
+		"AmmoLow"					"255 82 82 255"
+		
+		"AmmoSecondary"				"234 234 234 255"
+		"AmmoSecondaryShadow"		"22 22 22 255"
+		"AmmoSecondaryLow"			"255 82 82 255"
+		
+		// DAMAGE DONE
+		"DMGNumbers"				"0 255 255 255"
+		"HealNumbers"				"0 230 118 255"
+		"LDMDNumbers"				"0 255 255 255"
+		
+		// UBER
+		"Uber"						"234 234 234 255"
+		"UberShadow"				"22 22 22 255"
+		
+		"UberBackground"			"33 33 33 150"
+		"UberFill"					"0 230 118 255"
+		
+		"UberFlash"					"0 230 118 255"
+		"UberFlash2"				"3 169 244 255"
+		
+		// METERS
+		
+		"Name"						"234 234 234 255"
+		
+		"MeterBackground"			"33 33 33 255"			
+		
+		"StickyFill"				"0 230 118 255"
+		
+		
+		// TEAM COLORS
+		"RedTeam"					"244 67 54 255"
+		"BlueTeam"					"33 150 243 255"
 		
 		//base custom colors I dont recommend changing these
-		"cwhite"			"234 234 234 255"
-		"cgray"				"158 158 158 255"
-		"cblack"			"33 33 33 255"
-		"cred"				"244 67 54 255"
-		"credlight"			"255 82 82 255"
-		"cgreen"			"0 230 118 255"
-		"cblue"				"33 150 243 255"
-		"cbluedark"			"63 81 181 255"		
-		"cbluelight"		"3 169 244 255"
-		"corange"			"255 152 0 255"
-		"cyellow"			"255 235 59 255"
-		"camber"			"255 193 7 255"
-		"cpink"				"233 30 99 255"
-		"cpurple"			"156 39 176 255"
+		"cwhite"					"234 234 234 255"
+		"cgray"						"158 158 158 255"
+		"cblack"					"33 33 33 255"
+		"cred"						"244 67 54 255"
+		"credlight"					"255 82 82 255"
+		"cgreen"					"0 230 118 255"
+		"cblue"						"33 150 243 255"
+		"cbluedark"					"63 81 181 255"		
+		"cbluelight"				"3 169 244 255"
+		"corange"					"255 152 0 255"
+		"cyellow"					"255 235 59 255"
+		"camber"					"255 193 7 255"
+		"cpink"						"233 30 99 255"
+		"cpurple"					"156 39 176 255"
+		"cturq"						"26 188 156 255"
+		
+		// End of custom HUD colors
 	
 	
 		// base colors
@@ -492,7 +528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -500,7 +536,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -509,7 +545,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -518,7 +554,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -527,7 +563,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -536,7 +572,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -798,7 +834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -808,7 +844,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -818,7 +854,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -827,7 +863,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -836,7 +872,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -848,7 +884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -861,7 +897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -874,7 +910,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -886,7 +922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -897,7 +933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -908,7 +944,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -920,7 +956,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -931,7 +967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -942,7 +978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -953,7 +989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -966,7 +1002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -979,7 +1015,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -991,7 +1027,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1002,7 +1038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1013,7 +1049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1025,7 +1061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1036,7 +1072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1048,7 +1084,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1059,7 +1095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1070,7 +1106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1081,7 +1117,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1092,7 +1128,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1103,7 +1139,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1114,7 +1150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1125,7 +1161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1138,7 +1174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1213,7 +1249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1226,7 +1262,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1286,7 +1322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1296,7 +1332,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1307,7 +1343,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1316,7 +1352,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1325,7 +1361,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1491,7 +1527,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1501,7 +1537,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1512,7 +1548,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1537,7 +1573,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"TeXGyreAdventor-Regular"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1552,7 +1588,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"TeXGyreAdventor-Regular"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1567,7 +1603,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1580,7 +1616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"TeXGyreAdventor-Regular"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1618,7 +1654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1631,7 +1667,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1643,7 +1679,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1655,7 +1691,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1669,7 +1705,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1681,7 +1717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1693,7 +1729,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1708,7 +1744,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1720,7 +1756,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1730,7 +1766,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1740,7 +1776,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1749,7 +1785,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1758,7 +1794,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1770,7 +1806,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1782,7 +1818,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1793,7 +1829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1804,7 +1840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1815,7 +1851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1826,7 +1862,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1838,7 +1874,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1895,7 +1931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1995,7 +2031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2008,7 +2044,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2020,7 +2056,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2073,7 +2109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2083,7 +2119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2093,7 +2129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2121,7 +2157,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2130,7 +2166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2169,7 +2205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2180,7 +2216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2191,7 +2227,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2277,7 +2313,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2288,7 +2324,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2299,7 +2335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2310,7 +2346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2321,7 +2357,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2342,7 +2378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2353,7 +2389,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2364,7 +2400,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2376,7 +2412,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2387,7 +2423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"blu"		"3"
@@ -2528,7 +2564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2540,7 +2576,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2549,7 +2585,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2558,7 +2594,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2571,7 +2607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2581,7 +2617,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2591,7 +2627,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2605,7 +2641,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2614,7 +2650,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2623,7 +2659,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2636,7 +2672,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2648,7 +2684,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2660,7 +2696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2768,7 +2804,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2832,7 +2868,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2843,7 +2879,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2854,7 +2890,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2867,7 +2903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2878,7 +2914,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2895,7 +2931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2906,7 +2942,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2918,7 +2954,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2931,7 +2967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2943,7 +2979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2954,7 +2990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TeXGyreAdventor-Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"blu"		"3"
@@ -3022,6 +3058,17 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"24"
 				"antialias" 	"1"
+			}
+		}
+		
+		"treg24out"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Regular"
+				"tall"		"24"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -3195,6 +3242,17 @@ Scheme
 			}
 		}
 		
+		"tbol36out"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"36"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
+		
 		"tbol42"
 		{
 			"1"
@@ -3232,7 +3290,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"8"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3243,9 +3301,716 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"10"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
+		
+		"Class200"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "200"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+		
+		"Class175"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "175"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+		
+		"Class150"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "150"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+		
+		"Class125"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "125"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+		
+		"Class100"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "100"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+		
+		"Class58"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "58"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class56"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "56"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class54"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "54"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class52"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "52"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class50"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "50"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class48"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "48"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class46"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "46"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class45"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "45"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class44"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "44"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class42"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "42"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class41"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "41"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class40"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "40"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class39"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "39"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class38"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "38"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class37"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "37"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class36"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "36"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class35"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "35"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class34"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "34"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class33"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "33"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class32"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "32"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class31"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "31"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class30"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "30"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class29"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "29"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class28"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "28"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class27"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "27"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class26"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "26"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class26Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "26"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "Class25"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "25"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class24"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "24"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class23"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class23Outline"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+                "outline" "1"
+            }
+        }
+        
+        "Class23Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "Class22"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "22"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class21"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        "Class21Outline"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+                "outline" "1"
+            }
+        }
+        "Class21Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "Class20"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "20"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class18"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "18"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class17"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "17"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+    //Font changed for lower resolution    
+        
+        
+        
+        "Class16"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "16"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class16Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "16"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "Class15"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "15"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class15Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "15"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "Class14"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "14"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class13"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "13"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class13Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "13"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "Class12"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "12"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class12Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "12"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "Class11"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "11"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        "Class11Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "11"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "Class10"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "10"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class10Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "10"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "Class9"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "9"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class9Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "9"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "Class8"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "8"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        
+        "Class8Shadow"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "8"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "Class7"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "7"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "Class6"
+        {
+            "1"
+            {
+                "name"        "Hudas Iscariote"
+                "tall"        "6"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
 		
 		"blu12"
 		{
@@ -3254,7 +4019,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"12"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3265,7 +4030,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"16"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3276,7 +4041,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"20"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3287,7 +4052,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"24"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3298,7 +4063,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"26"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3309,7 +4074,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"30"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3320,7 +4085,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"32"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3331,7 +4096,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"36"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3342,7 +4107,7 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"42"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
 			}
 		}
 		
@@ -3353,7 +4118,117 @@ Scheme
 				"name"		"TeXGyreAdventor-Regular"
 				"tall"		"48"
 				"antialias" 	"1"
-				"blu"			"2"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol12"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"12"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol16"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"16"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol20"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"20"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol24"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"24"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol26"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"26"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol30"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"30"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol32"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"32"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol36"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"36"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol42"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"42"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		
+		"blubol48"
+		{
+			"1"
+			{
+				"name"		"TeXGyreAdventor-Bold"
+				"tall"		"48"
+				"antialias" 	"1"
+				"blur"			"2"
 			}
 		}
 		
@@ -6141,7 +7016,7 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	// Range specificies the characters to be used from the custom font before falling back to a default font
 	// characters in the range not specificed in the font will appear empty
-	// For TF2: Any special character will need to be added to our font file
+	// For TeXGyreAdventor-Bold: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -6219,5 +7094,10 @@ Scheme
 			"font" "resource/fonts/CodeS-Regular.ttf"
 			"name" "Code S Regular"
 		}
+		"11"
+        {
+            "font" "resource/fonts/HudasIscariote2.otf"
+            "name" "Hudas Iscariote"
+        }
 	}
 }
