@@ -105,7 +105,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"tbol24"
+			"font"			"blu24"
 			"fgcolor"		"AmmoShadow"
 		}		
 	}

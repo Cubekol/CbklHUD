@@ -51,20 +51,23 @@ Scheme
 		"UberFill"					"0 230 118 255"
 		
 		"UberFlash"					"0 230 118 255"
-		"UberFlash2"				"3 169 244 255"
+		"UberFlash2"				"3 169 244 255"	
+		"UberFlash3"				"244 67 54 255"			
 		
 		// METERS
-		
 		"Name"						"234 234 234 255"
 		
 		"MeterBackground"			"33 33 33 255"			
 		
-		"StickyFill"				"0 230 118 255"
+		"StickyFill"				"255 193 7 255"
 		
 		
 		// TEAM COLORS
 		"RedTeam"					"244 67 54 255"
 		"BlueTeam"					"33 150 243 255"
+		
+		// TARGET ID
+		"TargetBG"					"33 33 33 255"
 		
 		//base custom colors I dont recommend changing these
 		"cwhite"					"234 234 234 255"
@@ -285,33 +288,33 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.BgColor									"cblack"
+		Econ.Button.FgColor									"cwhite"
+		Econ.Button.ArmedBgColor							"camber"
+		Econ.Button.ArmedFgColor							"cblack"
+		Econ.Button.DepressedBgColor						"camber"
+		Econ.Button.DepressedFgColor						"cblack"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"cwhite"
+		Econ.Button.PresetArmedColorFg						"cblack"
+		Econ.Button.PresetDepressedColorFg					"cblack"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"Blank"
+		Econ.Button.PresetArmedColorBg						"camber"
+		Econ.Button.PresetDepressedColorBg					"camber"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"cwhite"
+		Button.BgColor					"cblack"
+		Button.ArmedTextColor			"cblack"
+		Button.ArmedBgColor				"camber"
+		Button.SelectedTextColor		"cblack"
+		Button.SelectedBgColor			"camber"
+		Button.DepressedTextColor		"cblack"
+		Button.DepressedBgColor			"camber"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -4370,6 +4373,15 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"cr100"
+		{
+			"1"
+			{
+				"name"		"Code S Regular"
+				"tall"		"88"
+				"antialias" 	"1"
+			}
+		}
 		"cr126"
 		{
 			"1"
@@ -5117,6 +5129,18 @@ Scheme
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
+		}
+		
+		redbor
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg_red"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"12"	
 		}
 		
 		BackpackItemGrayedOut

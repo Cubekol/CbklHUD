@@ -78,7 +78,8 @@ event HudMedicCharged
 {
 	
 	Animate	ChargeMeter 	FgColor		"UberFlash"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"UberFlash2"		Linear 0.2 0.1
+	Animate	ChargeMeter 	FgColor		"UberFlash2"		Linear 0.2 0.2
+	Animate	ChargeMeter 	FgColor		"UberFlash3"		Linear 0.1 0.1
 
 	RunEvent HudMedicChargedLoop	0.6
 }
