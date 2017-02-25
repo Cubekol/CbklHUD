@@ -57,14 +57,14 @@
 		"xpos"			"c-300"
 		"ypos"			"50"
 		"wide"			"600"
-		"tall"			"18"
+		"tall"			"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"tbol32"
+		"font"			"tbol24"
 	}
 	"BuyBackLabel"
 	{

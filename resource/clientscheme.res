@@ -66,9 +66,6 @@ Scheme
 		"RedTeam"					"244 67 54 255"
 		"BlueTeam"					"33 150 243 255"
 		
-		// TARGET ID
-		"TargetBG"					"33 33 33 255"
-		
 		//base custom colors I dont recommend changing these
 		"cwhite"					"234 234 234 255"
 		"cgray"						"158 158 158 255"
