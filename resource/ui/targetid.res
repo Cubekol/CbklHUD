@@ -67,6 +67,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
+
 	
 	"itsafuckenbgdude"
 	{
@@ -248,5 +249,19 @@
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
+	}
+	
+	"hltbgg"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"hltbgg"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"21"
+		"wide"			"3"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"0 0 0 0"
 	}	
 }

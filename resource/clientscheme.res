@@ -287,9 +287,9 @@ Scheme
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"cblack"
 		Econ.Button.FgColor									"cwhite"
-		Econ.Button.ArmedBgColor							"camber"
+		Econ.Button.ArmedBgColor							"cgreen"
 		Econ.Button.ArmedFgColor							"cblack"
-		Econ.Button.DepressedBgColor						"camber"
+		Econ.Button.DepressedBgColor						"cgreen"
 		Econ.Button.DepressedFgColor						"cblack"
 		
 		Econ.Button.PresetDefaultColorFg					"cwhite"
@@ -297,8 +297,8 @@ Scheme
 		Econ.Button.PresetDepressedColorFg					"cblack"
 		
 		Econ.Button.PresetDefaultColorBg					"Blank"
-		Econ.Button.PresetArmedColorBg						"camber"
-		Econ.Button.PresetDepressedColorBg					"camber"
+		Econ.Button.PresetArmedColorBg						"cgreen"
+		Econ.Button.PresetDepressedColorBg					"cgreen"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
@@ -307,11 +307,11 @@ Scheme
 		Button.TextColor				"cwhite"
 		Button.BgColor					"cblack"
 		Button.ArmedTextColor			"cblack"
-		Button.ArmedBgColor				"camber"
+		Button.ArmedBgColor				"cgreen"
 		Button.SelectedTextColor		"cblack"
-		Button.SelectedBgColor			"camber"
+		Button.SelectedBgColor			"cgreen"
 		Button.DepressedTextColor		"cblack"
-		Button.DepressedBgColor			"camber"
+		Button.DepressedBgColor			"cgreen"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -4579,6 +4579,19 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+	
+		bgredbor
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg_red"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
 		NoBorder
 		{
 			"inset" "0 0 0 0"
