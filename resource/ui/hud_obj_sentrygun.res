@@ -133,6 +133,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"		"cwhite"
 		}
 		
 		"dispwhitebg"
@@ -257,16 +258,17 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"12"
+			"xpos"			"110"
+			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"35"
-			"tall"			"35"
+			"wide"			"25"
+			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
+			"border"		"bgredbor"
 		}
 		
 		"Health"

@@ -92,6 +92,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"		"cwhite"
 		}
 		
 		"dispwhitebg"
@@ -184,24 +185,25 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"121"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
+			"xpos"			"110"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"31"
+			"tall"			"31"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
+			"border"		"bgredbor"
 		}
 		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"3"
+			"xpos"			"110"
+			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"25"
 			"tall"			"25"
@@ -210,6 +212,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
+			"border"		"bgredbor"
 		}
 		
 		"Health"
@@ -336,7 +339,7 @@
 				"iconColor"		"cgreen"
 			}
 			
-			"welltheyearsstartcomingandtheydontstopcoming"
+			"welltheyearsstartcomingandtheydontstopcoming" //andtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcomingandtheydontstopcoming
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"welltheyearsstartcomingandtheydontstopcoming"

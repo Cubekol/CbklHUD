@@ -66,6 +66,10 @@ Scheme
 		"RedTeam"					"244 67 54 255"
 		"BlueTeam"					"33 150 243 255"
 		
+		// MAIN Menu
+		"BtDefault"						"0 0 0 0"
+		"BtArmed"						"255 255 255 10"
+		
 		//base custom colors I dont recommend changing these
 		"cwhite"					"234 234 234 255"
 		"cgray"						"158 158 158 255"
@@ -4570,6 +4574,136 @@ Scheme
 				"blu"			"2"
 			}
 		}
+		
+		"ic8"
+		{
+			"1"
+			{
+				"name"		"Code S Regular"
+				"tall"		"8"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic10"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"10"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic12"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"12"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic16"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"16"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic20"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"20"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic24"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"24"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic26"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"26"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic30"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"30"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic32"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"32"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic36"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"36"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic42"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"42"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic48"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"48"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ic56"
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"56"
+				"antialias" 	"1"
+			}
+		}
 
 	}
 
@@ -7132,6 +7266,11 @@ Scheme
         {
             "font" "resource/fonts/HudasIscariote2.otf"
             "name" "Hudas Iscariote"
+        }
+		"12"
+        {
+            "font" "resource/fonts/Icons.ttf"
+            "name" "Icons"
         }
 	}
 }
